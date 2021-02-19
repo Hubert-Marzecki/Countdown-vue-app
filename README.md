@@ -1,9 +1,6 @@
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+# Countdown app :alarm_clock:
 
-## General info :alarm_clock:
+## General info 
 Project created during requitment process. App provides ability to setup countdowns(date and time) and track countdowns progress. All countdown info are saved in localstorage. User is able to change color theme and pick between 3 languages.
 To manage time operations I used moment.js and styled everything with SCSS. 
 	
