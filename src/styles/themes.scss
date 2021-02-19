@@ -1,0 +1,112 @@
+@import './varibles.scss';
+
+.page__wrapper.theme__dark{
+    transition: all 0.3s ease;
+    color: white;
+      background-color: #27292d ;
+      .button{
+        background-color: #0e0e0e ;
+        color: white
+      }
+      .input {
+          background-color: transparent;
+          outline: none;
+          border: 1px solid #818181;
+          color: white
+      }
+      .list__holder{
+      .list__item {
+        box-shadow: none;
+      }
+      }
+  }
+  
+  
+  
+  .page__wrapper.theme__blue{
+    transition: all 0.3s ease;
+    @include bg-light($theme-blue-main);
+      color: white;
+     
+      .date__form{
+        .add__items{
+          background-color: #1e41c1 ;
+          color: white
+        }
+      }
+     
+      .input {
+          background-color: transparent;
+          outline: none;
+          @include border-theme-color($theme-blue-main);
+          color: white
+
+      }
+      .input::placeholder{
+        color: rgba(255, 255, 255, 0.432)
+      }
+
+      .input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: rgba(255, 255, 255, 0.432)
+      }
+
+      .list__holder{
+      .list__item {
+        box-shadow: none;
+    
+      }
+      }
+  }
+  
+  .page__wrapper.theme__orange{
+    transition: all 0.3s ease;
+    color: black;
+    @include bg-light($theme-orange-main);
+
+      .date__form{
+        .add__items{
+          color: black
+        }
+      }
+      .input {
+          background-color: transparent;
+          outline: none;
+          @include border-theme-color($theme-orange-main);
+          color: black;
+
+      }
+      .list__holder{
+      .list__item {
+        box-shadow: none;
+        .button{
+             color: black
+        }
+      }
+      }
+  }
+  
+  .page__wrapper.theme__green{
+    transition: all 0.3s ease;
+    @include bg-light($theme-green-main);
+
+      .date__form{
+        .add__items{
+          color: black
+        }
+      }
+      .input {
+          background-color: transparent;
+          outline: none;
+         @include border-theme-color($theme-green-main);
+          color: black
+      }
+      .list__holder{
+      .list__item {
+        box-shadow: none;
+        .button{
+             color: black
+        }
+      }
+      }
+  }
+  

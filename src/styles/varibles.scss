@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+$border: 2px solid
+  rgba(
+    $color: white,
+    $alpha: 0.35,
+  );
+$size1: 6px;
+$size2: 12px;
+$size3: 18px;
+$size4: 24px;
+$size5: 48px;
+$backgroundColor: #27292d;
+$textColor: white;
+$primaryColor: #a0a4d9;
+$secondTextColor: #1f2023;
+$header-font: 'Fredoka One', cursive;
+$font-primary: 'Open Sans', sans-serif;
+$theme-blue-main: #1e41c1;
+$theme-white-main: white;
+$theme-dark-main: rgb(41, 41, 41);
+$theme-orange-main: rgb(255, 180, 42);
+$theme-green-main: #5faf3b;
+$bg-transparency:  rgba($color: #000000, $alpha: 0.2);
+$bg-lighter:  rgba($color: white, $alpha: 0.2);
+@mixin bg-light($themeColor) {
+  background-color: rgba($color: $themeColor, $alpha: 0.5) ;
+}
+@mixin border-theme-color($themeColor) {
+  border: 1px solid rgba($color: $themeColor, $alpha: 1.0) ;
+  
+}
